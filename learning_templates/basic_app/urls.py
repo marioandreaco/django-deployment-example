@@ -6,5 +6,5 @@ app_name = 'basic_app'
 
 urlpatterns=[
     path('relative/',views.relative,name='relative'),
-    url('other/',views.other,name='other'),
+    path('other/',views.other,name='other'),
 ]
